@@ -9,7 +9,7 @@ While the project was created for the Keppler Paso 100, it's reasonable to assum
 
 # Prerequisites
 
- * Teensy (I used a 3.1, most should work except maybe LC version. Arduinos could be easy to port for unijoy supported devices)
+ * Teensy (I used a 3.1, most should work except maybe LC version. Arduinos could be easy to port for [UnoJoy](https://github.com/AlanChatham/UnoJoy) supported devices)
  * Keppler Paso 100 exercise bike (probably others with a similar 3.5mm jack for sensor are super easy to get working with this as well, I'd assume most sensors send a similar signal)
  * Some basic soldering skills, and very basic supplies.
  * Arduino software: [http://www.arduino.cc/en/Main/Software](http://www.arduino.cc/en/Main/Software)
