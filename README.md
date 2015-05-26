@@ -6,6 +6,8 @@ This project was created to convert the sensor data from a Keppler Paso 100 exer
 
 While the project was created for the Keppler Paso 100, it's reasonable to assume most bike sensors to have a similar interface and thus the code should be fairly compatible, or at least easy to port.
 
+Quick demo of it in action is available at [http://www.twitch.tv/lietu/c/6745600](http://www.twitch.tv/lietu/c/6745600)
+
 
 # Prerequisites
 
