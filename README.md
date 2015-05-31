@@ -36,6 +36,7 @@ If you have a stereo 3.5mm audio cable, 2 of the leads are going to be short cir
 
 The pins are configurable in code, just read the comments at the top of `ebjoy/ebjoy.ino`.
 
+
 # Programming the device
 
 Make sure you've got the software installed as specified in *Prerequisites* before this. Also you might want to make sure your cabling is done so you can test the result after this. The Teensy also needs to be plugged in to your USB port for this.
@@ -75,6 +76,11 @@ If you click on that, you should see a dialog with the title *Game Controllers* 
 If all of the above is true, you now have an exercise bike game controller. Congratulations! If not, you'll have to do debugging, and relevant fixes. Start by checking your cabling.
 
 Pull requests that do NOT break original support, but add optional support for other devices/sensors/whatever are highly appreciated.
+
+
+# Getting it to work with games
+
+Unfortunately at least with Teensy the game controller registers as a joystick and not a gamepad, or some such thing and you need to use [x360ce](http://www.x360ce.com/default.aspx) to make some games accept input from this thing.
 
 
 # Other sensors
